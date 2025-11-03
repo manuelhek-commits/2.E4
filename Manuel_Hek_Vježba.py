@@ -48,7 +48,7 @@ while True:
         if len(lista_mjerenja)== 0:
             print("Nema spremljenih mjerenja za izračun prosjeka. ")
             continue
-        presjek = izračunaj_prosjek(lista_mjerenja)
+        prosjek = izracunaj_prosjek(lista_mjerenja)
         print(f"\n Prosjek od {len(lista_mjerenja)} mjerenja iznosi: {prosjek:.2f} V")
         lista_mjerenja.clear()
         print("Sva mjerenja su obrisana. Spremno za novu listu")
@@ -65,3 +65,4 @@ while True:
 
     else:
         print("Nepostojeća opcija, odaberite broj između 0 i 3.")
+
